@@ -1,4 +1,4 @@
-This is a chromium extension to help you find downloads amount for specific python packages. For more info visit: https://microsoftedge.microsoft.com/addons/xxxx (to be updated)
+This is a chromium extension to help you find downloads amount for specific python packages. For more info visit: [Microsoft Edge Addons](https://microsoftedge.microsoft.com/addons/detail/pypi-downloads-stats/dncpkpafbfaechcdhfhgoebfdfccogij)
 
 It is rely on https://pypistats.org/, which query Google Cloud BigQuery to get the data.
 
