@@ -1,24 +1,18 @@
 {
-    "name": "PyPi Downloads Stats",
-    "version": "0.0.1",
-    "manifest_version": 3,
-    "description": "This is a simple extension to display PyPi downloads stats on the package page.",
-    "icons": {
-        "16": "images/favicon.ico"
-    },
-    "content_scripts": [
-        {
-            "js": [
-                "scripts/init.js"
-            ],
-            "matches": [
-                "https://pypi.org/project/*"
-            ],
-            "run_at": "document_start"
-        }
-    ],
-    "author": "zh_cn2008@hotmail.com",
-    "permissions": [
-        "activeTab"
-    ]
+  "name": "PyPi Downloads Stats",
+  "version": "1.0.1",
+  "manifest_version": 3,
+  "description": "This is a simple extension to show downloads amount of last day/week/month on pypi.org page.",
+  "icons": {
+    "16": "images/favicon.ico"
+  },
+  "content_scripts": [
+    {
+      "js": ["scripts/init.js"],
+      "matches": ["https://pypi.org/project/*"],
+      "run_at": "document_start"
+    }
+  ],
+  "author": "zh_cn2008@hotmail.com",
+  "permissions": ["activeTab"]
 }

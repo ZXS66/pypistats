@@ -1,6 +1,6 @@
 {
   "name": "pypistats",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "background.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -8,7 +8,7 @@
   "keywords": [],
   "author": "",
   "license": "MIT",
-  "description": "This is a simple extension to display PyPi downloads stats on the package page.",
+  "description": "This is a simple extension to display downloads amount on PyPi.org page.",
   "dependencies": {
     "chrome-types": "^0.1.318"
   }
